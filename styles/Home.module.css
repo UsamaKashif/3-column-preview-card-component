@@ -1,0 +1,28 @@
+.container{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--Verylightgray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  max-width: calc(305px * 3);
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 780px){
+  .cards {
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 509px){
+  .cards {
+    grid-template-columns: 305px;
+  }
+}

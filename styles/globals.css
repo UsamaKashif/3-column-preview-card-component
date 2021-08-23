@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+
+  --Transparentwhite: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --Verylightgray: hsl(0, 0%, 95%); /* (background, headings, buttons) */
+
+  --font-bs: 'Big Shoulders Display', cursive;
+  --font-l:  'Lexend Deca', sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

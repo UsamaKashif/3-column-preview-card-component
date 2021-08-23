@@ -1,0 +1,71 @@
+.card {
+    max-width: 305px;
+    height: 496px;
+    padding: 45px;
+}
+
+.orange {
+    background-color: var(--Brightorange);
+}
+
+.cyan {
+    background-color: var(--Darkcyan);
+}
+
+.darkCyan {
+    background-color: var(--Verydarkcyan);
+}
+
+.title{
+    font-family: var(--font-bs);
+    text-transform: uppercase;
+    color: var(--Verylightgray);
+    margin-top: 38px;
+    font-size: 38px;
+}
+
+.para{
+    color: var(--Transparentwhite);
+    font-family: var(--font-l);
+    margin-top: 35px;
+    line-height: 1.4rem;
+}
+
+.learnMore{
+    width: 144px;
+    height: 48px;
+    background-color: var(--Verylightgray);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 82px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all .5s ease-in-out;
+}
+
+.learnMore:hover{
+    background-color: transparent;
+    border: 2px solid var(--Verylightgray);
+}
+
+.learnMore:hover p{
+    color: var(--Transparentwhite) !important;
+}
+
+.learnMore p{
+    font-family: var(--font-l);
+}
+
+.orange .learnMore p{
+    color: var(--Brightorange);
+}
+
+.cyan .learnMore p {
+    color: var(--Darkcyan);
+}
+
+.darkCyan .learnMore p {
+    color: var(--Verydarkcyan);
+}
